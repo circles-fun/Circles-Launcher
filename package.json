@@ -1,0 +1,30 @@
+{
+  "name": "Circles",
+  "main": "main.js",
+  "bugs": {
+    "url": "https://github.com/circles-fun/CirclesLauncher/issues"
+  },
+  "build": {
+    "appId": "fun.circles",
+    "compression": "maximum"
+  },
+  "author": "Checksum",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "electron ."
+  },
+  "license": "gpl3.0",
+  "keywords": [],
+  "homepage": "https://github.com/circles-fun/CirclesLauncher#readme",
+  "repository": {
+    "url": "git+https://github.com/circles-fun/CirclesLauncher.git",
+    "type": "git"
+  },
+  "description": "Electron launcher for circles.fun",
+  "devDependencies": {
+    "electron": "^13.1.4",
+    "electron-reload": "^1.5.0",
+    "electron-builder": "^22.11.7",
+    "electron-packager": "^15.2.0"
+  }
+}

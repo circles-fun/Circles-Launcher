@@ -57,6 +57,13 @@ typings/
 # dotenv environment variables file
 .env
 
+# package locks
+pnpm-lock*
+package-lock.json
+
+# electron builds
+dist
+
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 
